@@ -24,7 +24,16 @@ return [
         'user' => [
             'profile' => 'r,u',
         ],
-        'role_name' => [
+        'supervisor' => [
+            'module_1_name' => 'c,r,u,d',
+        ],
+        'factory_operator' => [
+            'module_1_name' => 'c,r,u,d',
+        ],
+        'truck_operator' => [
+            'module_1_name' => 'c,r,u,d',
+        ],
+        'labour' => [
             'module_1_name' => 'c,r,u,d',
         ],
     ],
